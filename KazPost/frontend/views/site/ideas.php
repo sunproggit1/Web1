@@ -1,6 +1,7 @@
 <?php
 use yii\helpers\Html;
-$imgopt=Html::img('images/optimization.jpeg',['width'=>"500px", 'height'=>'300px']);
+$bgimg=Html::img('images/finance.jpeg',['class'=>'myImg']);
+$imgopt=Html::img('images/optimization.jpeg',['width'=>"500px", 'height'=>'300px', 'class'=>'myImg']);
 $imgnewprod= Html::img('images/newproduct.jpeg',['width'=>"500px", 'height'=>'300px']);
 $imgmail=Html::img('images/mailservice.gif',['width'=>"500px", 'height'=>'300px']);
 $imgfinance=Html::img('images/finance.jpeg',['width'=>"500px", 'height'=>'300px']);
@@ -11,12 +12,8 @@ $imgother=Html::img('images/other.jpeg',['width'=>"500px", 'height'=>'300px']);
 $this->title = 'Ideas';
 ?>
 <div class="site-index">
-
     <div class="jumbotron">
- 
-<div class="col-lg-12">
         <p class="lead"><h1 align="center">Most creative ideas places here!</h1></p>
-</div>
     </div>
 
     <div class="body-content">

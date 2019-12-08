@@ -24,6 +24,7 @@ body {
 .jumbotron {
     text-align: center;
     background-color: transparent;
+    display: table;
 }
 
 .jumbotron .btn {
@@ -122,4 +123,6 @@ a.desc:after {
 /* 
 Other css
 */
-
+body {
+    background-color: #d2d2d2; /* Цвет фона */
+   }

@@ -242,4 +242,13 @@ class SiteController extends Controller
     public function actionMyaccount(){
         return $this->render('myaccount');
     }
+    public function actionMyideas(){
+        return $this->render('myideas');
+    }
+    public function actionOtherideas(){
+        return $this->render('otherideas');
+    }
+    public function actionMydata(){
+        return $this->render('mydata');
+    }
 }
