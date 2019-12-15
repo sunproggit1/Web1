@@ -18,6 +18,5 @@ $this->title = 'Ideas';
     <li class="slide"><img src="images/newidea3.jpeg" height="420px" width="700px"></li>
 </ul>
 <br><br><br><br><br><br>
-
     </div>
 </div>

@@ -11,9 +11,9 @@ class SignupForm extends Model
 {
     public $username;
     public $email;
+    public $number;
+    public $role;
     public $password;
-
-
     /**
      * @inheritdoc
      */
@@ -30,7 +30,9 @@ class SignupForm extends Model
             ['email', 'email'],
             ['email', 'string', 'max' => 255],
             ['email', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This email address has already been taken.'],
-
+            ['number', 'required'],
+            ['number', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This email address has already been taken.'],
+            ['role', 'required'],
             ['password', 'required'],
             ['password', 'string', 'min' => 6],
         ];
@@ -46,13 +48,14 @@ class SignupForm extends Model
         if (!$this->validate()) {
             return null;
         }
-        
         $user = new User();
         $user->username = $this->username;
         $user->email = $this->email;
+        $user->number = $this->number;
+        $user->role = $this->role;
         $user->setPassword($this->password);
         $user->generateAuthKey();
-        
+
         return $user->save() ? $user : null;
     }
 }

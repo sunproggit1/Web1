@@ -1,9 +1,5 @@
 <?php
-
-/* @var $this yii\web\View 
-<code><?= __FILE__ ?></code>
-*/
-
+/* @var $this yii\web\View */
 use yii\helpers\Html;
 
 $this->title = 'About';
@@ -11,7 +7,6 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about">
     <h1><?= Html::encode($this->title) ?></h1>
-
 <h3 class="alert alert-warning">ABOUT COMPANY </h3>
 <p class="alert alert-danger">
 Kazpost JSC - the postal operator of the Republic of Kazakhstan, represents the Postal Administration of Kazakhstan in the Universal Postal Union, is one of the basic elements of the national infrastructure.
@@ -43,5 +38,5 @@ In March 1946, the Commissioner of the People’s Commissariat of Communications
 Kazakhstan gained independence in December 1991 and immediately set about organizing its own mail. The period of 1999-2000, when the transition to corporatization took place, was difficult for Kazakhstan, since all the activities of the postal industry underwent transformation. The transition from the state form of management to corporatization transferred the industry to self-financing, developing an independent foreign borrowing policy to modernize the material and technical base, developing strategic directions of development aimed at strengthening the company's market position, including expanded diversification of activities and the conquest of new niches.
 <br><br>
 Currently, Kazpost JSC is the sole shareholder (100% share) of the company Kazpost LLC (Germany).</p>
-     
+
 </div>

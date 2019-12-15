@@ -29,6 +29,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
+
         'brandLabel' => 'KazPost',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
@@ -41,8 +42,6 @@ AppAsset::register($this);
         ['label' => 'Ideas', 'url' => ['/site/ideas']],
         ['label' => 'Contact', 'url' => ['/site/contact']],
         ['label' => 'Account', 'url' => ['/site/myaccount']],
-        
-        
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
