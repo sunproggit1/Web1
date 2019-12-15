@@ -13,6 +13,7 @@ use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 
+use yii\helpers\Url;
 /**
  * Site controller
  */
@@ -209,5 +210,46 @@ class SiteController extends Controller
         return $this->render('resetPassword', [
             'model' => $model,
         ]);
+    }
+    public function actionIdeas()
+    {
+        return $this->render('ideas');
+    
+    }
+    public function actionOptimization()
+    {
+        return $this->render('optimization');
+    }
+    public function actionNewproduct()
+    {
+        return $this->render('newproduct');
+    }
+    public function actionMailservice()
+    {
+        return $this->render('mailservice');
+    }
+    public function actionFinancy_agency()
+    {
+        return $this->render('financy_agency');
+    }
+    public function actionIt_solutions()
+    {
+        return $this->render('it_solutions');
+    }
+    public function actionOther_categories()
+    {
+        return $this->render('other_categories');
+    }
+    public function actionMyaccount(){
+        return $this->render('myaccount');
+    }
+    public function actionMyideas(){
+        return $this->render('myideas');
+    }
+    public function actionOtherideas(){
+        return $this->render('otherideas');
+    }
+    public function actionMydata(){
+        return $this->render('mydata');
     }
 }

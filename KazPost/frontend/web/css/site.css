@@ -24,6 +24,7 @@ body {
 .jumbotron {
     text-align: center;
     background-color: transparent;
+    display: table;
 }
 
 .jumbotron .btn {
@@ -118,3 +119,9 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+/* 
+Other css
+*/
+body {
+    background-color: #d2d2d2; /* Цвет фона */
+   }

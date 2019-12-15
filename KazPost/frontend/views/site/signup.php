@@ -20,13 +20,9 @@ $this->params['breadcrumbs'][] = $this->title;
             <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
 
                 <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
-
                 <?= $form->field($model, 'email') ?>
-
                 <?= $form->field($model, 'number') ?>
-
                 <?= $form->field($model, 'role') ?>
-
                 <?= $form->field($model, 'password')->passwordInput() ?>
 
                 <div class="form-group">
