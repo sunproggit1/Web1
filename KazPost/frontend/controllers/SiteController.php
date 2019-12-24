@@ -251,4 +251,10 @@ class SiteController extends Controller
     public function actionMydata(){
         return $this->render('mydata');
     }
+    public function actionBlog(){
+        return $this->render('blog');
+    }
+    public function actionBlog2(){
+        return $this->render('blog2');
+    }
 }
