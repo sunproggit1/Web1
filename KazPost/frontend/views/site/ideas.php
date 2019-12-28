@@ -1,55 +1,61 @@
 <?php
 use yii\helpers\Html;
-$bgimg=Html::img('images/finance.jpeg',['class'=>'myImg']);
-$imgopt=Html::img('images/optimization.jpeg',['width'=>"500px", 'height'=>'300px', 'class'=>'myImg']);
-$imgnewprod= Html::img('images/newproduct.jpeg',['width'=>"500px", 'height'=>'300px']);
-$imgmail=Html::img('images/mailservice.gif',['width'=>"500px", 'height'=>'300px']);
-$imgfinance=Html::img('images/finance.jpeg',['width'=>"500px", 'height'=>'300px']);
-$imgitsol= Html::img('images/itsolutions.jpeg',['width'=>"500px", 'height'=>'300px']);
-$imgother=Html::img('images/other.jpeg',['width'=>"500px", 'height'=>'300px']);
+$bgimg=Html::img('images/finance.jpeg',['width'=>"400px", 'height'=>'240px']);
+$imgopt=Html::img('images/optimization.jpeg',['width'=>"400px", 'height'=>'240px']);
+$imgnewprod= Html::img('images/newproduct.jpeg',['width'=>"400px", 'height'=>'240px']);
+$imgmail=Html::img('images/mailservice.gif',['width'=>"400px", 'height'=>'240px']);
+$imgfinance=Html::img('images/finance.jpeg',['width'=>"400px", 'height'=>'240px']);
+$imgitsol= Html::img('images/itsolutions.jpeg',['width'=>"400px", 'height'=>'240px']);
+$imgother=Html::img('images/other.jpeg',['width'=>"400px", 'height'=>'240px']);
+$imgcourse=Html::img('images/courses.jpg',['width'=>"400px", 'height'=>'240px']);
 /* @var $this yii\web\View */
 
-$this->title = 'Ideas';
+$this->title = 'Идеи!';
 ?>
 <div class="site-index">
-    <div class="jumbotron">
-        <p class="lead"><h1 align="center">Most creative ideas places here!</h1></p>
-    </div>
+    
+        <p class="lead"><h1 align="center">Здесь находятся самые креативные идеи! Иди же, предложи свою идею!</h1></p>
+    <br>
 
     <div class="body-content">
 
         <div class="row">
-            <div class="col-lg-6">
-                <h2 align="center">Process optimization</h2>
-                <span align="center" class="btn btn-default"><?= Html::a($imgopt,['site/optimization']); ?></span>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+                <h2 align="left">Оптимизация процессов</h2>
+                <span align="center" class="btn btn-default imgcss"><?= Html::a($imgopt,['site/optimization']); ?></span>
             </div>
-            <div class="col-lg-6">
-                <h2 align="center">New product</h2>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+                <h2 align="left">Новые продукты</h2>
 
-                <span align="center" class="btn btn-default"><?= Html::a($imgnewprod,['site/optimization']); ?></span>
+                <span align="center" class="btn btn-default imgcss"><?= Html::a($imgnewprod,['site/newproduct']); ?></span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+                <h2 align="left">Почтовые услуги</h2>
+
+                <span align="center" class="btn btn-default imgcss"><?= Html::a($imgmail,['site/mailservice']); ?></span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+                <h2 align="left">Финансовые и агентские услуги</h2>
+
+                <span align="center" class="btn btn-default imgcss"><?= Html::a($imgfinance,['site/financy_agency']); ?></span>
             </div>
             <br><br>
-            <div class="col-lg-6">
-                <h2 align="center">Mail service</h2>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+                <h2 align="left">IT-решения</h2>
 
-                <span align="center" class="btn btn-default"><?= Html::a($imgmail,['site/optimization']); ?></span>
-            </div>
-            <div class="col-lg-6">
-                <h2 align="center">Financial and agency service</h2>
-
-                <span align="center" class="btn btn-default"><?= Html::a($imgfinance,['site/optimization']); ?></span>
-            </div>
-            <br><br>
-            <div class="col-lg-6">
-                <h2 align="center">IT-solutions</h2>
-
-                <span align="center" class="btn btn-default"><?= Html::a($imgitsol,['site/optimization']); ?></span>          
+                <span align="center" class="btn btn-default imgcss"><?= Html::a($imgitsol,['site/it_solutions']); ?></span>          
           </div>
-            <div class="col-lg-6">
-                <h2 align="center">Other categories</h2>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+                <h2 align="left">Обучающие курсы</h2>
 
-                <span align="center" class="btn btn-default"><?= Html::a($imgother,['site/optimization']); ?></span>  </div>
+                <span align="center" class="btn btn-default imgcss"><?= Html::a($imgcourse,['site/courses']); ?></span>  </div>
         </div>
+         <div class="col-lg-6 col-md-6 col-xs-12">
+                <h2 align="left">Другие категории</h2>
+
+                <span align="center" class="btn btn-default imgcss"><?= Html::a($imgother,['site/other_categories']); ?></span>  </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-12"></div>
 
     </div>
 </div>

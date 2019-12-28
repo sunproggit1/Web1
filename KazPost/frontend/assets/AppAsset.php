@@ -15,13 +15,13 @@ class AppAsset extends AssetBundle
         'css/site.css',
         'css/sliderstyle.css',
         'css/animate.min.css',
-        'bootstrap.min.css',
-        'font-awesome.min.css',
-        'owl.carousel.css',
-        'owl.theme.css',
-        'owl.transitions',
-        'responsive.css',
-        'style.css'
+        'css/bootstrap.min.css',
+        'css/font-awesome.min.css',
+        'css/owl.carousel.css',
+        'css/owl.theme.css',
+        'css/owl.transitions',
+        'css/responsive.css',
+        'css/style.css'
     ];
     public $js = [
         'js/slider.js',

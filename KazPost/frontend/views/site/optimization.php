@@ -2,7 +2,7 @@
 use yii\helpers\Html;
 /* @var $this yii\web\View */
 
-$this->title = 'Optimization process';
+$this->title = 'Процесс оптимизации';
 ?>
 <div class="site-index">
 

@@ -5,12 +5,7 @@
 $this->title = 'KazPost';
 ?>
 <div class="site-index">
-    <div class="jumbotron">
-       
-
-
-    </div>
-
+  
     <div class="body-content" align="center"> 
     	<h3>Ideas</h3>
         <ul id="slides">

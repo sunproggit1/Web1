@@ -2,16 +2,11 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'Биржа идей';
+$this->title = 'Почтовые услуги';
 ?>
 <div class="site-index">
 
-    <div class="jumbotron">
-        <h1>Ideas!</h1>
-
-        <p class="lead">Most creatively ideas about mail service places here.</p>
-
-    </div>
+        <p class="lead">Самые креативные идеи про почтовые услуги находятся здесь. Иди же, предложи свою идею!</p>
 
     <div class="body-content">
 

@@ -2,16 +2,11 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'Ideas';
+$this->title = 'Новые продукции';
 ?>
 <div class="site-index">
 
-    <div class="jumbotron">
-        <h1>Ideas</h1>
-
-        <p class="lead">Most creatively ideas about new products places here.</p>
-
-    </div>
+        <p class="lead">Самые креативные идеи о новых продукциях находятся здесь. Иди же, предложи свою идею!</p>
 
     <div class="body-content">
 

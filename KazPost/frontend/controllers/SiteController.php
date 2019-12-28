@@ -257,4 +257,7 @@ class SiteController extends Controller
     public function actionBlog2(){
         return $this->render('blog2');
     }
+    public function actionCourses(){
+        return $this->render('courses');
+    }
 }
