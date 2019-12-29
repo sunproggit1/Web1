@@ -21,7 +21,8 @@ class AppAsset extends AssetBundle
         'css/owl.theme.css',
         'css/owl.transitions',
         'css/responsive.css',
-        'css/style.css'
+        'css/style.css',
+        'css/style2.css'
     ];
     public $js = [
         'js/slider.js',
@@ -30,7 +31,8 @@ class AppAsset extends AssetBundle
         'js/owl.carousel.min.js',
         'js/jquery.stickit.min.js',
         'js/menu.js',
-        'js/scripts.js'
+        'js/scripts.js',
+        'js/game.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',

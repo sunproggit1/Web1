@@ -1,0 +1,129 @@
+
+
+.btn {
+	overflow: hidden;
+	background-color: #87b9f7;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	width: 20%;
+	height: 15%;
+	cursor: pointer;
+	
+}
+
+.add {
+    overflow: hidden;
+    max-width: 80%;
+    padding: 20px 10px 20px 10px;
+    background-color: #0093c4;
+    font-size: 20px;
+    color: white;
+    margin: 100px;
+    cursor: pointer;
+    border: solid;
+    border-color: black;
+}
+
+.area{
+	margin: 5px;
+}
+.add h4{
+    text-align: left;
+    color: black;
+}
+
+
+.instruction {
+    color: #111111;
+    text-align: left;
+    padding: 10px;
+}
+
+#stopbtn{
+    width:100px;
+    height: 40px;
+}
+
+#startbtn{
+    width:100px;
+    height: 40px;
+}
+
+
+
+.add form {
+	margin: 10px 10px 10px 10px;
+}
+
+
+.ssss {
+	padding: 5px;
+	background-color: #69da69;
+}
+
+.btn {
+	overflow: hidden;
+	background-color: #87b9f7;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	width: 20%;
+	height: 15%;
+	cursor: pointer;
+	
+}
+
+#test {
+	background-color: #87b5a7;
+	color:white;
+	text-align: center;
+	padding: 10px;
+	margin: 20px 0 20px 0;
+	width: 100%;
+}
+
+#block {
+	margin: 20px 0 20px 0;
+	width: 100%;
+}
+
+#math {
+	background-color: #87b5f7;
+	color:white;
+	text-align: center;
+	padding: 10px;
+	margin: 20px 0 20px 0;
+	width: 100%;
+}
+table{
+	border:solid 2px;
+	overflow: hidden;
+	background-color: #87b9f7;
+	text-align: center;
+	padding: 10px;
+	height: 10px;
+	cursor: pointer;
+}
+
+table tr, td{
+	border:solid 2px;
+	overflow: hidden;
+	background-color: #87b9f7;
+	text-align: center;
+	padding: 10px;
+	height: 10px;
+	cursor: pointer;
+}
+
+
+.game_field {
+	background-color: orange;
+	width: 100px;
+	height: 100px;
+}
+.blockss {
+		background-color: blue;
+	width: 20px;
+	height: 20px;
+}
